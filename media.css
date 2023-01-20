@@ -1,0 +1,191 @@
+@media (max-width: 600px){
+	.navright{
+		display: none;
+	}
+	.hamburger{
+		display: block !important;
+		border: none;
+		background-color: transparent;
+		cursor: pointer;
+	}
+	#navbar-responsive {
+		display: block;
+		position: fixed;
+	    top: 0;
+		bottom: 0;
+		left: -100%;
+	    height: 100vh;
+	    width: 100%;
+	    flex-direction: column;
+	    justify-content: center;
+	    align-items: center;
+	    background-color: var(--fa);
+	    transition: 1s;
+		text-align: center;
+		color: var(--lightgrey);
+	}
+	.homeup{
+		text-align: center;
+	}
+	.homeup p{
+		max-width: 100%;
+	}
+	.homecards{
+		position: static;
+        flex-direction: column;
+		top: -100px;
+	}
+	.homecard{
+		width: 100%;
+	}
+	.homebtns{
+		flex-direction: column;
+	}
+	.homebtns button{
+		margin-top: 10px;
+	}
+	.aboutdown{
+		flex-direction: column;
+	}
+	.advicedown{
+		flex-direction: column;
+	}
+}
+
+
+
+@media (min-width:600px){
+	#navbar-responsive{
+		display: none;
+	}
+	.homeup p{
+		max-width: 39%;
+	}
+	.homecard{
+		width: 40%;
+	}
+}
+
+
+
+@media (max-width: 1200px){
+	.homeup {
+		padding: 90px 0 170px;
+	}
+}
+
+
+
+@media(max-width: 799px){
+	.homecards{
+		flex-wrap: wrap;
+		bottom: -400px;
+		justify-content: space-around;
+	}
+	.aboutus{
+		margin-top: 500px;
+	}
+}
+
+
+
+@media(max-width: 740px){
+	.homecards{
+		bottom: -450px;
+	}
+	
+}
+
+
+
+@media(min-width: 800px){
+	.homecards{
+		bottom: -150px;
+	}
+	.homecard{
+		width: 30% ;
+	}
+	.aboutus{
+		margin-top: 294px;
+	}
+	
+}
+ 
+
+
+@media(max-width: 679px){
+	.homebtns{
+		margin-top: 520px;
+	}
+}
+
+
+
+@media(min-width: 680px){
+	.homebtns{
+		margin-top: 480px;
+	}
+}
+
+
+@media (max-width:1100px){
+	.advicedown{
+		flex-direction: column;
+	}
+}
+
+
+
+@media (max-width:899px){
+	.clients{
+		flex-direction: column;
+	}
+	.clients h1 {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+	.logos{
+		flex-wrap: wrap;
+	}
+}
+
+
+@media (min-width:900px){
+	.clients h1 {
+		width: 30%;
+	}
+}
+
+
+
+
+@media(max-width:999px){
+	.servicedown{
+		flex-direction: column;
+	}
+	.servicesdownright{
+		width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+	}
+	.servicesdownright p {
+		text-align: center;
+	}
+	.servicesdownright h2{
+		text-align: center;
+	}
+}
+
+@media(min-width:1000px){
+	.servicesdownright{
+		margin-left: 100px;
+		width: 35%;
+	}
+}
+
+@media(max-width:500px){
+	.footercontent{
+		flex-direction: column;
+	}
+}
